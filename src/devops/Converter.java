@@ -1,7 +1,5 @@
 package devops;
 
-import org.hamcrest.core.Is;
-import org.junit.*;
 
 public class Converter {
     
