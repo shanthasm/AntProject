@@ -66,8 +66,8 @@
         </junitreport>
     </target>
      <target name="jar" description="generate the jar">
-          <mkdir dir="${jar.dir}"/>
-        <jar destfile="${jar.dir}/cleanjar.jar" basedir="${bin.dir}">
+          <mkdir dir="targets"/>
+        <jar destfile="targets/cleanjar.jar" basedir="bin">
           </jar>
       </target>           
 </project>
