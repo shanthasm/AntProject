@@ -66,6 +66,7 @@
         </junitreport>
     </target>
      <target name="jar" depends="compile" description="generate the jar">
-      <jar destfile="cleanjar.jar" basedir="${bin.dir}"/>
+        <mkdir dir="${jar.dir}"/>
+      <jar destfile="${jar}/cleanjar.jar" basedir="${bin.dir}"/>
     </target>           
 </project>
