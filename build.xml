@@ -68,7 +68,7 @@
     </target> 
    <target name="jar" depends="compile" description="generate the jar">
             <mkdir dir="${jar.dir}"/>
-      <jar destfile="${jar}/cleanjar.jar" basedir="${bin}"/>
+      <jar destfile="${jar}/cleanjar.jar" basedir="bin"/>
     </target>
 	                                       
 </project>
