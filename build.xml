@@ -68,6 +68,9 @@
      <target name="jar" description="generate the jar">
           <mkdir dir="targets"/>
         <jar destfile="targets/cleanjar.jar" basedir="bin">
+           <manifest>
+       <attribute name="AntProject" value="build"/>
+            </manifest>     
           </jar>
       </target>           
 </project>
