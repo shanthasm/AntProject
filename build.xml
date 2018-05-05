@@ -115,7 +115,7 @@
     </target>
     <target name="clean-build" depends="clean,jar"/>
 
-    <target name="build" depends="clean,run"/>
+  
                 
                  
 </project>
