@@ -1,3 +1,4 @@
+
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- WARNING: Eclipse auto-generated file.
               Any modifications will be overwritten.
@@ -64,6 +65,12 @@
             </fileset>
             <report format="frames" todir="${junit.output.dir}"/>
         </junitreport>
-    </target>                    
-                 
+    </target> 
+      
+	  <property name="AntProjectjar" location="bin" />
+	      <target name="jar" depends="compile" description="generate the jar">
+            <mkdir dir="${jar.dir}"/>
+      <jar destfile="${jar}/cleanjar.jar" basedir="${bin}" />
+    </target>
+	                                       
 </project>
