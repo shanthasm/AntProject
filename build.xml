@@ -65,10 +65,5 @@
             </fileset>
             <report format="frames" todir="${junit.output.dir}"/>
         </junitreport>
-    </target> 
-   <target name="jar" depends="compile" description="generate the jar">
-            <mkdir dir="${jar.dir}"/>
-      <jar destfile="${jar}/cleanjar.jar" basedir="bin"/>
-    </target>
-	                                       
+    </target> 	                                       
 </project>
